@@ -1,0 +1,21 @@
+.nav-outer-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 1em;
+  max-width: 800px;
+  margin: 1.5em auto;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #676767;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #000;
+}
