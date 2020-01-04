@@ -1,0 +1,53 @@
+.menu-outer-container {
+  display: block;
+  max-width: 100%;
+  overflow-x: scroll;
+}
+
+.menu-slider-container {
+  display: flex;
+  width: 480%;
+}
+
+.menu-category-container {
+  position: relative;
+  width: 310px;
+  height: 400px;
+  overflow-y: scroll;
+  max-width: 95%;
+  margin: 0 1em;
+  border: 1px solid #eee;
+  /* padding: .5em; */
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.menu-category-title {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: .5em;
+  background: #4c94f1;
+  color: #fff;
+}
+
+.menu-category-plates-container {
+  padding: .6em;
+}
+
+.menu-category-plate {
+  margin-bottom: 1em;
+}
+
+.menu-category-plate-title {
+  font-weight: 600;
+}
+
+.menu-category-plate-description {
+  font-size: .85em;
+}
+
+.menu-category-plate-price {
+  font-weight: bold;
+  margin: .2em 0;
+}

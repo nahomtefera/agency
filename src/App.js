@@ -3,6 +3,7 @@ import './App.css';
 
 // Components
 import Nav from './components/nav/nav'
+import Menu from './components/menu/menu'
 
 class App extends Component {
   constructor(props) {
@@ -12,7 +13,8 @@ class App extends Component {
   render() { 
     return ( 
       <Fragment>
-        <Nav position="fixed" links={['home', 'about us', 'location', 'contact']}></Nav>
+        <Nav position="fixed" links={['home', 'about us', 'location', 'contact']}/>
+        <Menu />
       </Fragment>
      );
   }
